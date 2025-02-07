@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IOT Video Broadcasting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Section: Logo and System Name -->
+        <div class="left-section">
+            <div class="logo-container">
+                <img src="xcom.jpg" alt="System Logo">
+            </div>
+            <h1 class="system-name">EXCOMMUNICADO</h1>
+        </div>
+
+        <!-- Right Section: Login Form -->
+        <div class="right-section">
+            <div class="login-container">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <input type="text" id="username" placeholder="Username" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <p id="message" style="color: red; text-align: center;"></p>
+                <hr>
+                <div class="create-account">
+                    <h3>Don't have an account?</h3>
+                    <button id="createAccountBtn">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
