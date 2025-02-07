@@ -3,38 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IOT Video Broadcasting System</title>
-    <link rel="stylesheet" href="style.css">
+    <title>XCOM (ECOMMUNICADO) - About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: #00bfff;
+            text-align: center;
+        }
+        header {
+            background-color: #001f3f;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+        }
+        .logo {
+            width: 150px;
+            height: 150px;
+        }
+        .tagline {
+            font-size: 18px;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .members, .gallery, .contact {
+            margin-top: 30px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #001f3f;
+        }
+    </style>
 </head>
 <body>
+    <header>XCOM (ECOMMUNICADO)</header>
     <div class="container">
-        <!-- Left Section: Logo and System Name -->
-        <div class="left-section">
-            <div class="logo-container">
-                <img src="xcom.jpg" alt="System Logo">
-            </div>
-            <h1 class="system-name">EXCOMMUNICADO</h1>
+        <img src="xcom.jpg" alt="XCOM Logo" class="logo">
+        <h2>About Us</h2>
+        <p class="tagline"> Comms and Fun</p>
+        <p>Welcome to XCOM (ECOMMUNICADO), a brotherhood of elite warriors dedicated to strategic dominance and tactical excellence.</p>
+        
+        <h3>Our Mission</h3>
+        <p>To establish an unstoppable force, leaving no enemy standing.</p>
+
+        <h3>Leader</h3>
+        <div class="members">
+            <p><strong>Leader:</strong> Xcom Zenpie</p>
+            <img src="leader.jpg" alt="Leader" width="200">
+            <p><strong>Elite Squad:</strong><p>XCOM Ghost</p> <p> XCOM Bird</p><p>XCOM Shou</p>
+            <p>XCOM Dex</p><p>XCOM Eya</p><p>XCOM Gusty</p>
         </div>
 
-        <!-- Right Section: Login Form -->
-        <div class="right-section">
-            <div class="login-container">
-                <h2>Login</h2>
-                <form id="loginForm">
-                    <input type="text" id="username" placeholder="Username" required>
-                    <input type="password" id="password" placeholder="Password" required>
-                    <button type="submit">Login</button>
-                </form>
-                <p id="message" style="color: red; text-align: center;"></p>
-                <hr>
-                <div class="create-account">
-                    <h3>Don't have an account?</h3>
-                    <button id="createAccountBtn">Create Account</button>
-                </div>
-            </div>
+        
+
+        <h3>Contact</h3>
+        <div class="contact">
+
+            <p>To Join Our Clam Message Our Admin On Facebook: <a href="https://www.facebook.com/Eya1601">Eya Eya</a></p>
         </div>
     </div>
-
-    <script src="script.js"></script>
+    <footer>&copy; 2025 XCOM (ECOMMUNICADO) | All Rights Reserved</footer>
 </body>
 </html>
